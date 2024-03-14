@@ -1,5 +1,6 @@
 # Drug-discovery-with-IC50-using-ML-
 Machine learning with IC50 data of 104 chemical molecules against the COVID-19 virus
+
 ## Introduction:
 
 The "Drug Discovery with IC50 Data Using Machine Learning" project aims to utilize machine learning techniques to discover potential drugs for COVID-19 from a dataset containing information on 104 molecules, including SMILES notation, IC50 values, and other molecular features. The dataset is sourced from Kaggle and is available here.
@@ -11,9 +12,12 @@ The dataset consists of molecular information encoded as SMILES notation along w
 ## Project Workflow:
 
 ### Data Preprocessing:
-**Imputation of missing data:** Any missing values in the dataset were handled using appropriate imputation techniques to ensure the integrity of the data.
-**Feature Scaling:** The data was scaled to bring all features to a similar scale, preventing certain features from dominating the model training process.
-**Model Training:**
+
+**Imputation of missing data:** 
+Any missing values in the dataset were handled using appropriate imputation techniques to ensure the integrity of the data.
+**Feature Scaling:** 
+The data was scaled to bring all features to a similar scale, preventing certain features from dominating the model training process.
+**Model Training:** 
 Several machine learning models were trained using the preprocessed data. These models include:
 
     Random Forest Regressor
@@ -24,7 +28,7 @@ Several machine learning models were trained using the preprocessed data. These 
     Linear Regression
     
 The performance of each model was evaluated based on its ability to predict IC50 values accurately.
-**Model Evaluation**:
+**Model Evaluation**
 The models were evaluated using appropriate evaluation metrics such as accuracy, mean squared error, or R-squared score.
 Among the models tested, the SVR model exhibited the best performance with an accuracy of 60%.
 **Molecular Structure Transformation:**
