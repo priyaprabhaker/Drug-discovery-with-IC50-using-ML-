@@ -15,12 +15,14 @@ The dataset consists of molecular information encoded as SMILES notation along w
 **Feature Scaling:** The data was scaled to bring all features to a similar scale, preventing certain features from dominating the model training process.
 **Model Training:**
 Several machine learning models were trained using the preprocessed data. These models include:
+
     Random Forest Regressor
     Ada Boost Regressor
     Support Vector Regressor (SVR)
     Decision Tree Regressor
     KNeighbors Regressor
     Linear Regression
+    
 The performance of each model was evaluated based on its ability to predict IC50 values accurately.
 **Model Evaluation**:
 The models were evaluated using appropriate evaluation metrics such as accuracy, mean squared error, or R-squared score.
