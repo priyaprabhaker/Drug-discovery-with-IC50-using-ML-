@@ -15,8 +15,10 @@ The dataset consists of molecular information encoded as SMILES notation along w
 
 **Imputation of missing data:** 
 Any missing values in the dataset were handled using appropriate imputation techniques to ensure the integrity of the data.
+
 **Feature Scaling:** 
 The data was scaled to bring all features to a similar scale, preventing certain features from dominating the model training process.
+
 **Model Training:** 
 Several machine learning models were trained using the preprocessed data. These models include:
 
@@ -28,9 +30,11 @@ Several machine learning models were trained using the preprocessed data. These 
     Linear Regression
     
 The performance of each model was evaluated based on its ability to predict IC50 values accurately.
+
 **Model Evaluation**
 The models were evaluated using appropriate evaluation metrics such as accuracy, mean squared error, or R-squared score.
 Among the models tested, the SVR model exhibited the best performance with an accuracy of 60%.
+
 **Molecular Structure Transformation:**
 The SMILES molecular strings were converted into molecular structures using the RDKit package, allowing for a deeper analysis of the molecular properties.
 
